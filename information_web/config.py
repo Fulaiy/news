@@ -6,7 +6,7 @@ import logging
 class Config(object):
     # DEBUG = True
 
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@127.0.0.1:3306/information_web'
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@172.24.253.107:3306/information_web'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     REDIS_HOST = '127.0.0.1'
